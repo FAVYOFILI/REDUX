@@ -9,8 +9,8 @@ const dispatch = useDispatch();
 return (
   <div>
     <h1>Counter: {count}</h1>
-    <button onClick={() => dispatch(CounterSlice.actions.increment())}></button>
-    <button onClick={() => dispatch(CounterSlice.actions.decrement())}></button>
+    <button onClick={() => dispatch(CounterSlice.actions.increment())}>+</button>
+    <button onClick={() => dispatch(CounterSlice.actions.decrement())}>_</button>
   </div>
 );
 }

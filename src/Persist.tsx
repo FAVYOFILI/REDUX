@@ -12,7 +12,7 @@ const persistedReducer = persistReducer(persistConfig, CounterSlice.reducer)
 
 export const store = configureStore({
     reducer: {
-        value: persistedReducer
+        counter: persistedReducer
     }
 })
 
